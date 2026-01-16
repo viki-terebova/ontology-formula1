@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:f1="http://example.org/formula1#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/individuals">
+    <owl:imports rdf:resource="http://example.org/formula1/core"/>
+    <owl:imports rdf:resource="http://example.org/formula1/events"/>
+    <owl:imports rdf:resource="http://example.org/formula1/teams"/>
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+    <owl:imports rdf:resource="http://example.org/formula1/countries"/>
+    <owl:imports rdf:resource="http://example.org/formula1/circuits"/>
+    <owl:imports rdf:resource="http://example.org/formula1/constructors"/>
+    <owl:imports rdf:resource="http://example.org/formula1/seasons"/>
+  </owl:Ontology>
+
+
+</rdf:RDF>

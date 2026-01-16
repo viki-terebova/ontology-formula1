@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/core">
+    <rdfs:label>F1 Core</rdfs:label>
+  </owl:Ontology>
+
+  
+  <owl:Class rdf:about="#Organization">
+      </owl:Class>
+  <owl:Class rdf:about="#Person">
+      </owl:Class>
+  <owl:Class rdf:about="#Location">
+      </owl:Class>
+  <owl:Class rdf:about="#Country">
+    <rdfs:subClassOf rdf:resource="#Location"/>
+  </owl:Class>
+  <owl:Class rdf:about="#EventThing">
+      </owl:Class>
+  <owl:Class rdf:about="#CompetitionThing">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TeamEntry">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#SeasonEntry">
+    <rdfs:subClassOf rdf:resource="#TeamEntry"/>
+  </owl:Class>
+  <owl:Class rdf:about="#CompetitionAsset">
+      </owl:Class>
+  <owl:Class rdf:about="#Characteristics">
+      </owl:Class>
+
+  
+  <owl:Class rdf:about="#Team">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Constructor">
+    <rdfs:subClassOf rdf:resource="#Team"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Driver">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TeamPrincipal">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="#RaceEngineer">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mechanic">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Steward">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="#RaceDirector">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="#GoverningBody">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Supplier">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TyreSupplier">
+    <rdfs:subClassOf rdf:resource="#Supplier"/>
+  </owl:Class>
+  <owl:Class rdf:about="#FuelSupplier">
+    <rdfs:subClassOf rdf:resource="#Supplier"/>
+  </owl:Class>
+  <owl:Class rdf:about="#PowerUnitSupplier">
+    <rdfs:subClassOf rdf:resource="#Supplier"/>
+  </owl:Class>
+  <owl:Class rdf:about="#MainDriver">
+    <rdfs:subClassOf rdf:resource="#Driver"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ReserveDriver">
+    <rdfs:subClassOf rdf:resource="#Driver"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TestDriver">
+    <rdfs:subClassOf rdf:resource="#Driver"/>
+  </owl:Class>
+
+  
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#Person"/>
+      <rdf:Description rdf:about="#Organization"/>
+      <rdf:Description rdf:about="#Location"/>
+      <rdf:Description rdf:about="#CompetitionAsset"/>
+      <rdf:Description rdf:about="#EventThing"/>
+      <rdf:Description rdf:about="#Characteristics"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+</rdf:RDF>

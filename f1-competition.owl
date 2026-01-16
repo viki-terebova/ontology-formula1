@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/competition">
+    <rdfs:label>F1 Competition</rdfs:label>
+    <owl:imports rdf:resource="http://example.org/formula1/core"/>
+    <owl:imports rdf:resource="http://example.org/formula1/events"/>
+    <owl:imports rdf:resource="http://example.org/formula1/vehicle"/>
+    <owl:imports rdf:resource="http://example.org/formula1/teams"/>
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="#Participation">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Penalty">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#OutcomeThing">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Result">
+    <rdfs:subClassOf rdf:resource="#OutcomeThing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#resultForDriver"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onClass rdf:resource="#Driver"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#resultOfSession"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onClass rdf:resource="#Session"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#resultForEntry"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onClass rdf:resource="#SessionEntry"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#position"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#gridPosition"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#points"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Standing">
+    <rdfs:subClassOf rdf:resource="#OutcomeThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#StandingRow">
+    <rdfs:subClassOf rdf:resource="#OutcomeThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Championship">
+    <rdfs:subClassOf rdf:resource="#CompetitionThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#DriversChampionship">
+    <rdfs:subClassOf rdf:resource="#Championship"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ConstructorsChampionship">
+    <rdfs:subClassOf rdf:resource="#Championship"/>
+  </owl:Class>
+  <owl:Class rdf:about="#RaceDetailThing">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Lap">
+    <rdfs:subClassOf rdf:resource="#RaceDetailThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#PitStop">
+    <rdfs:subClassOf rdf:resource="#RaceDetailThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TyreStint">
+    <rdfs:subClassOf rdf:resource="#RaceDetailThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Incident">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#PointsSystem">
+    <rdfs:subClassOf rdf:resource="#CompetitionThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Regulation">
+    <rdfs:subClassOf rdf:resource="#CompetitionThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Constraint">
+    <rdfs:subClassOf rdf:resource="#CompetitionThing"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#FinishStatus">
+    <rdfs:subClassOf rdf:resource="#Characteristics"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Finished"><rdfs:subClassOf rdf:resource="#FinishStatus"/></owl:Class>
+  <owl:Class rdf:about="#DNF"><rdfs:subClassOf rdf:resource="#FinishStatus"/></owl:Class>
+  <owl:Class rdf:about="#DNS"><rdfs:subClassOf rdf:resource="#FinishStatus"/></owl:Class>
+  <owl:Class rdf:about="#DSQ"><rdfs:subClassOf rdf:resource="#FinishStatus"/></owl:Class>
+
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#Finished"/>
+      <rdf:Description rdf:about="#DNF"/>
+      <rdf:Description rdf:about="#DNS"/>
+      <rdf:Description rdf:about="#DSQ"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+</rdf:RDF>

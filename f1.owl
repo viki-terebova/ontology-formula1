@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <owl:Ontology rdf:about="http://example.org/formula1">
+    <owl:imports rdf:resource="http://example.org/formula1/competition"/>
+    <owl:imports rdf:resource="http://example.org/formula1/core"/>
+    <owl:imports rdf:resource="http://example.org/formula1/events"/>
+    <owl:imports rdf:resource="http://example.org/formula1/individuals"/>
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+    <owl:imports rdf:resource="http://example.org/formula1/teams"/>
+    <owl:imports rdf:resource="http://example.org/formula1/vehicle"/>
+  </owl:Ontology>
+  <rdf:Description rdf:about="http://example.org/formula1#TeamEntry">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/formula1#hasMainDriver"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://example.org/formula1#MainDriver"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/formula1#Person">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/formula1#worksFor"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://example.org/formula1#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+
+</rdf:RDF>

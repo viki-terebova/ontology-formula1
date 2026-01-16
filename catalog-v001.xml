@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <group id="Local Catalog" prefer="public" xml:base="">
+    <uri name="http://example.org/formula1"           uri="f1.owl"/>
+    <uri name="http://example.org/formula1/core"      uri="f1-core.owl"/>
+    <uri name="http://example.org/formula1/events"    uri="f1-events.owl"/>
+    <uri name="http://example.org/formula1/teams"     uri="f1-teams.owl"/>
+    <uri name="http://example.org/formula1/vehicle"   uri="f1-vehicle.owl"/>
+    <uri name="http://example.org/formula1/competition" uri="f1-competition.owl"/>
+  <uri name="http://example.org/formula1/properties" uri="f1-properties.owl"/>
+  <uri name="http://example.org/formula1/individuals" uri="f1-individuals.owl"/>
+  <uri name="http://example.org/formula1/countries" uri="f1db-countries.owl"/>
+    <uri name="http://example.org/formula1/circuits" uri="f1db-circuits.owl"/>
+    <uri name="http://example.org/formula1/constructors" uri="f1db-constructors.owl"/>
+    <uri name="http://example.org/formula1/seasons" uri="f1db-seasons.owl"/>
+  </group>
+</catalog>

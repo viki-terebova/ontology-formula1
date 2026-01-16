@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:f1="http://example.org/formula1#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/circuits">
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+    <owl:imports rdf:resource="http://example.org/formula1/countries"/>
+  </owl:Ontology>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_austin">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Americas</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Austin</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#United-states-of-america"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.132778</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-97.641111</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.513</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_bahrain">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Bahrain</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Sakhir</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Bahrain"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.0325</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.510556</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.412</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_baku">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Baku</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Baku</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Azerbaijan"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.3725</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49.853333</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.003</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_catalunya">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Catalunya</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Montmeló</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Spain"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.57</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.261111</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.657</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_hungaroring">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Hungaroring</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Budapest</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Hungary"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.582222</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.251111</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.381</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_imola">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Enzo e Dino Ferrari</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Imola</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Italy"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.341111</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.713333</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.909</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_interlagos">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>José Carlos Pace</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>São Paulo</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Brazil"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-23.701111</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-46.697222</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.309</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_jeddah">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Jeddah</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Jeddah</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Saudi-arabia"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.543333</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.172778</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.174</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_las-vegas">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Las Vegas</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Las Vegas</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#United-states-of-america"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.175</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-115.136389</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.201</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_lusail">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Lusail</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Lusail</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Qatar"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.49</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.454167</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.419</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_marina-bay">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Marina Bay</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Singapore</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Singapore"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.291531</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">103.86385</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.927</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_melbourne">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Melbourne</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Melbourne</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Australia"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-37.849722</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144.968333</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.278</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_mexico-city">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Hermanos Rodríguez</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Mexico City</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Mexico"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.404197</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-99.088747</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.304</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_miami">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Miami</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Miami Gardens</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#United-states-of-america"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.958056</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-80.238889</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.412</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_monaco">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Monaco</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Monte Carlo</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Monaco"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.734722</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.420556</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.337</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_montreal">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Gilles Villeneuve</f1:shortName>
+    <f1:circuitType>STREET</f1:circuitType>
+    <f1:placeName>Montreal</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Canada"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.500578</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-73.522461</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.361</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_monza">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Monza</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Monza</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Italy"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.620556</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.289444</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.793</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_shanghai">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Shanghai</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Shanghai</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#China"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.338889</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">121.219722</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.451</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_silverstone">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Silverstone</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Silverstone</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#United-kingdom"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.078611</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.016944</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.891</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_spa-francorchamps">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Spa-Francorchamps</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Spa</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Belgium"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.437222</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.971389</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.004</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_spielberg">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Red Bull Ring</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Spielberg</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Austria"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.219722</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.764722</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.326</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_suzuka">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Suzuka</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Suzuka</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Japan"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.843056</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">136.540556</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.807</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_yas-marina">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Yas Marina</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Abu Dhabi</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#United-arab-emirates"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.467222</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">54.603056</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.281</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Circuit_zandvoort">
+    <rdf:type rdf:resource="http://example.org/formula1#Circuit"/>
+    <f1:shortName>Zandvoort</f1:shortName>
+    <f1:circuitType>RACE</f1:circuitType>
+    <f1:placeName>Zandvoort</f1:placeName>
+    <f1:locatedInCountry rdf:resource="http://example.org/formula1#Netherlands"/>
+    <f1:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.388819</f1:latitude>
+    <f1:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.540922</f1:longitude>
+    <f1:lengthKm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.259</f1:lengthKm>
+    <f1:turnCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</f1:turnCount>
+    <f1:totalRacesHeld rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</f1:totalRacesHeld>
+  </owl:NamedIndividual>
+
+</rdf:RDF>

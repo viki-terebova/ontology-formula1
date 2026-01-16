@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/vehicle">
+    <rdfs:label>F1 Vehicle</rdfs:label>
+    <owl:imports rdf:resource="http://example.org/formula1/core"/>
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="#Car">
+    <rdfs:subClassOf rdf:resource="#CompetitionAsset"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Component">
+    <rdfs:subClassOf rdf:resource="#CompetitionAsset"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TyreSet">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Brakes">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Suspension">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#PowerUnit">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Chassis">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Gearbox">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#AeroPackage">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#PowerUnitPart">
+    <rdfs:subClassOf rdf:resource="#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="#EnergyRecoverySystem">
+    <rdfs:subClassOf rdf:resource="#PowerUnitPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#InternalCombustionEngine">
+    <rdfs:subClassOf rdf:resource="#PowerUnitPart"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Turbo">
+    <rdfs:subClassOf rdf:resource="#PowerUnitPart"/>
+  </owl:Class>
+
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#TyreSet"/>
+      <rdf:Description rdf:about="#Brakes"/>
+      <rdf:Description rdf:about="#Suspension"/>
+      <rdf:Description rdf:about="#PowerUnit"/>
+      <rdf:Description rdf:about="#Chassis"/>
+      <rdf:Description rdf:about="#Gearbox"/>
+      <rdf:Description rdf:about="#AeroPackage"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+  <owl:Class rdf:about="#TyreManufacturer">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+  </owl:Class>
+
+  
+  <owl:Class rdf:about="#TyreCompound">
+    <rdfs:subClassOf rdf:resource="#Characteristics"/>
+  </owl:Class>
+  <owl:Class rdf:about="#SoftCompound"><rdfs:subClassOf rdf:resource="#TyreCompound"/></owl:Class>
+  <owl:Class rdf:about="#MediumCompound"><rdfs:subClassOf rdf:resource="#TyreCompound"/></owl:Class>
+  <owl:Class rdf:about="#HardCompound"><rdfs:subClassOf rdf:resource="#TyreCompound"/></owl:Class>
+  <owl:Class rdf:about="#IntermediateCompound"><rdfs:subClassOf rdf:resource="#TyreCompound"/></owl:Class>
+  <owl:Class rdf:about="#WetCompound"><rdfs:subClassOf rdf:resource="#TyreCompound"/></owl:Class>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#SoftCompound"/>
+      <rdf:Description rdf:about="#MediumCompound"/>
+      <rdf:Description rdf:about="#HardCompound"/>
+      <rdf:Description rdf:about="#IntermediateCompound"/>
+      <rdf:Description rdf:about="#WetCompound"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+</rdf:RDF>
+

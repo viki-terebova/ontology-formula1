@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:f1="http://example.org/formula1#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/constructors">
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+    <owl:imports rdf:resource="http://example.org/formula1/countries"/>
+  </owl:Ontology>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_alfa-romeo">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Alfa Romeo</f1:constructorName>
+    <f1:constructorFullName>Alfa Romeo Racing</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Italy"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20608</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">199</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">199</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_alphatauri">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>AlphaTauri</f1:constructorName>
+    <f1:constructorFullName>Scuderia AlphaTauri</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Italy"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8865</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">309</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">309</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_alpine">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Alpine</f1:constructorName>
+    <f1:constructorFullName>Alpine F1 Team</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#France"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12262</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">535</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">535</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_aston-martin">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Aston Martin</f1:constructorName>
+    <f1:constructorFullName>Aston Martin</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#United-kingdom"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13069</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">595</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">595</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_ferrari">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Ferrari</f1:constructorName>
+    <f1:constructorFullName>Scuderia Ferrari</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Italy"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1124</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1122</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126704</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">836</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11031.0</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10675.0</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_haas">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Haas</f1:constructorName>
+    <f1:constructorFullName>Haas F1 Team</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#United-states-of-america"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22629</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">386</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">386</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_kick-sauber">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Kick Sauber</f1:constructorName>
+    <f1:constructorFullName>Kick Sauber F1 Team</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Switzerland"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5163</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_mclaren">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>McLaren</f1:constructorName>
+    <f1:constructorFullName>McLaren Racing</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#United-kingdom"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">998</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">994</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105746</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">558</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">445</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8108.5</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7783.5</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_mercedes">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Mercedes</f1:constructorName>
+    <f1:constructorFullName>Mercedes AMG F1</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Germany"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39305</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8159.5</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8159.5</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_racing-bulls">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Racing Bulls</f1:constructorName>
+    <f1:constructorFullName>Racing Bulls</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Italy"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2625</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_rb">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>RB</f1:constructorName>
+    <f1:constructorFullName>Racing Bulls</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Italy"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2602</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_red-bull">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Red Bull</f1:constructorName>
+    <f1:constructorFullName>Red Bull Racing</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#Austria"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44826</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8288.0</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8288.0</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Constructor_williams">
+    <rdf:type rdf:resource="http://example.org/formula1#Constructor"/>
+    <f1:constructorName>Williams</f1:constructorName>
+    <f1:constructorFullName>Williams Grand Prix Engineering</f1:constructorFullName>
+    <f1:basedInCountry rdf:resource="http://example.org/formula1#United-kingdom"/>
+    <f1:bestChampionshipPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestChampionshipPosition>
+    <f1:bestStartingGridPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestStartingGridPosition>
+    <f1:bestRaceResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:bestRaceResult>
+    <f1:totalChampionshipWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</f1:totalChampionshipWins>
+    <f1:totalRaceEntries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">851</f1:totalRaceEntries>
+    <f1:totalRaceStarts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850</f1:totalRaceStarts>
+    <f1:totalRaceWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</f1:totalRaceWins>
+    <f1:total1And2Finishes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</f1:total1And2Finishes>
+    <f1:totalRaceLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87714</f1:totalRaceLaps>
+    <f1:totalPodiums rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">314</f1:totalPodiums>
+    <f1:totalPodiumRaces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</f1:totalPodiumRaces>
+    <f1:totalPolePositions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</f1:totalPolePositions>
+    <f1:totalFastestLaps rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</f1:totalFastestLaps>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3774.0</f1:totalPoints>
+    <f1:totalChampionshipPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3768.0</f1:totalChampionshipPoints>
+  </owl:NamedIndividual>
+
+</rdf:RDF>

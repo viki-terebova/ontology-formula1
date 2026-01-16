@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:f1="http://example.org/formula1#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/seasons">
+    <owl:imports rdf:resource="http://example.org/formula1/core"/>
+    <owl:imports rdf:resource="http://example.org/formula1/events"/>
+    <owl:imports rdf:resource="http://example.org/formula1/competition"/>
+    <owl:imports rdf:resource="http://example.org/formula1/teams"/>
+    <owl:imports rdf:resource="http://example.org/formula1/vehicle"/>
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+    <owl:imports rdf:resource="http://example.org/formula1/constructors"/>
+  </owl:Ontology>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Season2023">
+    <rdf:type rdf:resource="http://example.org/formula1#Season"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Season2024">
+    <rdf:type rdf:resource="http://example.org/formula1#Season"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Season2025">
+    <rdf:type rdf:resource="http://example.org/formula1#Season"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_alfa-romeo-f1-team-stake">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_aston-martin-aramco-cognizant-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_bwt-alpine-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_mclaren-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_mercedes-amg-petronas-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_moneygram-haas-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_oracle-red-bull-racing">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_scuderia-alphatauri">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_scuderia-ferrari">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_williams-racing">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2023"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_aston-martin-aramco-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_bwt-alpine-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_mclaren-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_mercedes-amg-petronas-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_moneygram-haas-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_oracle-red-bull-racing">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_scuderia-ferrari">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_stake-f1-team-kick-sauber">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_visa-cash-app-rb-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_williams-racing">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2024"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_aston-martin-aramco-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_atlassian-williams-racing">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_bwt-alpine-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_mclaren-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_mercedes-amg-petronas-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_moneygram-haas-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_oracle-red-bull-racing">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_scuderia-ferrari">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_stake-f1-team-kick-sauber">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_visa-cash-app-racing-bulls-f1-team">
+    <rdf:type rdf:resource="http://example.org/formula1#TeamEntry"/>
+    <f1:entryInSeason rdf:resource="http://example.org/formula1#Season2025"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_alfa-romeo-f1-team-stake">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_alfa-romeo"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_aston-martin-aramco-cognizant-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_aston-martin"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_bwt-alpine-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_alpine"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_mclaren-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_mclaren"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_mercedes-amg-petronas-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_mercedes"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_moneygram-haas-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_haas"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_oracle-red-bull-racing">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_red-bull"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_scuderia-alphatauri">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_alphatauri"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_scuderia-ferrari">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_ferrari"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_williams-racing">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_williams"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_aston-martin-aramco-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_aston-martin"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_bwt-alpine-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_alpine"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_mclaren-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_mclaren"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_mercedes-amg-petronas-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_mercedes"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_moneygram-haas-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_haas"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_oracle-red-bull-racing">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_red-bull"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_scuderia-ferrari">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_ferrari"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_stake-f1-team-kick-sauber">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_kick-sauber"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_visa-cash-app-rb-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_rb"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_williams-racing">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_williams"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_aston-martin-aramco-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_aston-martin"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_atlassian-williams-racing">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_williams"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_bwt-alpine-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_alpine"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_mclaren-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_mclaren"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_mercedes-amg-petronas-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_mercedes"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_moneygram-haas-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_haas"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_oracle-red-bull-racing">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_red-bull"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_scuderia-ferrari">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_ferrari"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_stake-f1-team-kick-sauber">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_kick-sauber"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_visa-cash-app-racing-bulls-f1-team">
+    <f1:enteredBy rdf:resource="http://example.org/formula1#Constructor_racing-bulls"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_alfa-romeo-f1-team-stake">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#GuanyuZhou"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#ValtteriBottas"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_aston-martin-aramco-cognizant-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#FernandoAlonsoDiaz"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LanceStroll"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_bwt-alpine-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#EstebanOcon"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#PierreGasly"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_mclaren-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LandoNorris"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#OscarPiastri"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_mercedes-amg-petronas-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#GeorgeRussell"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LewisCarlDavidsonHamilton"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_moneygram-haas-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#KevinJanMagnussen"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#NicolasHulkenberg"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_oracle-red-bull-racing">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#MaxEmilianVerstappen"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#SergioPerezMendoza"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_scuderia-alphatauri">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#DanielRicciardo"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LiamLawson"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#NyckDeVries"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#YukiTsunoda"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_scuderia-ferrari">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#CarlosSainzVazquezDeCastro"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#CharlesMarcHervePercevalLeclerc"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2023_williams-racing">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#AlexanderAlbon"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LoganHunterSargeant"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_aston-martin-aramco-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#FernandoAlonsoDiaz"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LanceStroll"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_bwt-alpine-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#EstebanOcon"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#PierreGasly"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_mclaren-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LandoNorris"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#OscarPiastri"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_mercedes-amg-petronas-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#GeorgeRussell"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LewisCarlDavidsonHamilton"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_moneygram-haas-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#KevinJanMagnussen"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#NicolasHulkenberg"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_oracle-red-bull-racing">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#MaxEmilianVerstappen"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#SergioPerezMendoza"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_scuderia-ferrari">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#CarlosSainzVazquezDeCastro"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#CharlesMarcHervePercevalLeclerc"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_stake-f1-team-kick-sauber">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#GuanyuZhou"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#ValtteriBottas"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_visa-cash-app-rb-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#DanielRicciardo"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LiamLawson"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#YukiTsunoda"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2024_williams-racing">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#AlexanderAlbon"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LoganHunterSargeant"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_aston-martin-aramco-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#FernandoAlonsoDiaz"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LanceStroll"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_atlassian-williams-racing">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#AlexanderAlbon"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#CarlosSainzVazquezDeCastro"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_bwt-alpine-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#FrancoAlejandroColapinto"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#JackDoohan"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#PierreGasly"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_mclaren-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LandoNorris"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#OscarPiastri"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_mercedes-amg-petronas-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#GeorgeRussell"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#AndreaKimiAntonelli"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_moneygram-haas-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#EstebanOcon"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#OliverJamesBearman"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_oracle-red-bull-racing">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LiamLawson"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#MaxEmilianVerstappen"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#YukiTsunoda"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_scuderia-ferrari">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#CharlesMarcHervePercevalLeclerc"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LewisCarlDavidsonHamilton"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_stake-f1-team-kick-sauber">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#GabrielBortoletoOliveira"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#NicolasHulkenberg"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Entry_2025_visa-cash-app-racing-bulls-f1-team">
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#IsackAlexandreHadjar"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#LiamLawson"/>
+    <f1:hasMainDriver rdf:resource="http://example.org/formula1#YukiTsunoda"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#AlexanderAlbon">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Thailand"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#CarlosSainzVazquezDeCastro">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Spain"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#CharlesMarcHervePercevalLeclerc">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Monaco"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#DanielRicciardo">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Australia"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#EstebanOcon">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#France"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#FernandoAlonsoDiaz">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Spain"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#FrancoAlejandroColapinto">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Argentina"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#GabrielBortoletoOliveira">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Brazil"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#GeorgeRussell">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#GuanyuZhou">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#China"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#IsackAlexandreHadjar">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#France"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#JackDoohan">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Australia"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#KevinJanMagnussen">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Denmark"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#AndreaKimiAntonelli">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Italy"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LanceStroll">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Canada"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LandoNorris">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LewisCarlDavidsonHamilton">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LiamLawson">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#New-zealand"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LoganHunterSargeant">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-states-of-america"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#MaxEmilianVerstappen">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Netherlands"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#NicolasHulkenberg">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Germany"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#NyckDeVries">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Netherlands"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#OliverJamesBearman">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#OscarPiastri">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Australia"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#PierreGasly">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#France"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#SergioPerezMendoza">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Mexico"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#ValtteriBottas">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Finland"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#YukiTsunoda">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Japan"/>
+  </owl:NamedIndividual>
+
+</rdf:RDF>

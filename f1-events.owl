@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/events">
+    <rdfs:label>F1 Events</rdfs:label>
+    <owl:imports rdf:resource="http://example.org/formula1/core"/>
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="#Season">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasRound"/>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+        <owl:onClass rdf:resource="http://example.org/formula1#Round"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Round">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#partOfSeason"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onClass rdf:resource="http://example.org/formula1#Season"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasEvent"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onClass rdf:resource="http://example.org/formula1#EventThing"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#GrandPrix">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#GrandPrixEvent">
+    <rdfs:subClassOf rdf:resource="#GrandPrix"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#heldAtCircuit"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onClass rdf:resource="http://example.org/formula1#Circuit"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasSession"/>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+        <owl:onClass rdf:resource="http://example.org/formula1#Session"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Circuit">
+    <rdfs:subClassOf rdf:resource="#Location"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#Session">
+    <rdfs:subClassOf rdf:resource="#EventThing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#partOfEvent"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+        <owl:onClass rdf:resource="http://example.org/formula1#EventThing"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#PracticeSession">
+    <rdfs:subClassOf rdf:resource="#Session"/>
+  </owl:Class>
+  <owl:Class rdf:about="#QualifyingSession">
+    <rdfs:subClassOf rdf:resource="#Session"/>
+  </owl:Class>
+  <owl:Class rdf:about="#QualifyingSegment">
+    <rdfs:subClassOf rdf:resource="#Session"/>
+  </owl:Class>
+  <owl:Class rdf:about="#SprintSession">
+    <rdfs:subClassOf rdf:resource="#Session"/>
+  </owl:Class>
+  <owl:Class rdf:about="#SprintShootoutSession">
+    <rdfs:subClassOf rdf:resource="#Session"/>
+  </owl:Class>
+  <owl:Class rdf:about="#RaceSession">
+    <rdfs:subClassOf rdf:resource="#Session"/>
+  </owl:Class>
+  <owl:Class rdf:about="#FP1">
+    <rdfs:subClassOf rdf:resource="#PracticeSession"/>
+  </owl:Class>
+  <owl:Class rdf:about="#FP2">
+    <rdfs:subClassOf rdf:resource="#PracticeSession"/>
+  </owl:Class>
+  <owl:Class rdf:about="#FP3">
+    <rdfs:subClassOf rdf:resource="#PracticeSession"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Q1">
+    <rdfs:subClassOf rdf:resource="#QualifyingSegment"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Q2">
+    <rdfs:subClassOf rdf:resource="#QualifyingSegment"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Q3">
+    <rdfs:subClassOf rdf:resource="#QualifyingSegment"/>
+  </owl:Class>
+
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#PracticeSession"/>
+      <rdf:Description rdf:about="#QualifyingSession"/>
+      <rdf:Description rdf:about="#SprintSession"/>
+      <rdf:Description rdf:about="#RaceSession"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+  
+  <owl:Class rdf:about="#WeatherCondition">
+    <rdfs:subClassOf rdf:resource="#Characteristics"/>
+  </owl:Class>
+  <owl:Class rdf:about="#DryWeather"><rdfs:subClassOf rdf:resource="#WeatherCondition"/></owl:Class>
+  <owl:Class rdf:about="#WetWeather"><rdfs:subClassOf rdf:resource="#WeatherCondition"/></owl:Class>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#DryWeather"/>
+      <rdf:Description rdf:about="#WetWeather"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+  <owl:Class rdf:about="#FlagStatus">
+    <rdfs:subClassOf rdf:resource="#Characteristics"/>
+  </owl:Class>
+  <owl:Class rdf:about="#GreenFlag"><rdfs:subClassOf rdf:resource="#FlagStatus"/></owl:Class>
+  <owl:Class rdf:about="#RedFlag"><rdfs:subClassOf rdf:resource="#FlagStatus"/></owl:Class>
+  <owl:Class rdf:about="#YellowFlag"><rdfs:subClassOf rdf:resource="#FlagStatus"/></owl:Class>
+  <owl:Class rdf:about="#BlueFlag"><rdfs:subClassOf rdf:resource="#FlagStatus"/></owl:Class>
+  <owl:Class rdf:about="#BlackFlag"><rdfs:subClassOf rdf:resource="#FlagStatus"/></owl:Class>
+  <owl:Class rdf:about="#BlackAndWhiteFlag"><rdfs:subClassOf rdf:resource="#FlagStatus"/></owl:Class>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#GreenFlag"/>
+      <rdf:Description rdf:about="#RedFlag"/>
+      <rdf:Description rdf:about="#YellowFlag"/>
+      <rdf:Description rdf:about="#BlueFlag"/>
+      <rdf:Description rdf:about="#BlackFlag"/>
+      <rdf:Description rdf:about="#BlackAndWhiteFlag"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+</rdf:RDF>

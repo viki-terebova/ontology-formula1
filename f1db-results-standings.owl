@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org/formula1#"
+         xml:base="http://example.org/formula1"
+         xmlns:f1="http://example.org/formula1#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="http://example.org/formula1/results-standings">
+    <owl:imports rdf:resource="http://example.org/formula1/core"/>
+    <owl:imports rdf:resource="http://example.org/formula1/events"/>
+    <owl:imports rdf:resource="http://example.org/formula1/competition"/>
+    <owl:imports rdf:resource="http://example.org/formula1/teams"/>
+    <owl:imports rdf:resource="http://example.org/formula1/vehicle"/>
+    <owl:imports rdf:resource="http://example.org/formula1/properties"/>
+    <owl:imports rdf:resource="http://example.org/formula1/constructors"/>
+  </owl:Ontology>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_max-verstappen"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_max-verstappen">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#MaxEmilianVerstappen"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">530</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_sergio-perez"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_sergio-perez">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#SergioPerezMendoza"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">260</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_fernando-alonso"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_fernando-alonso">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#FernandoAlonsoDiaz"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">198</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_carlos-sainz-jr"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_carlos-sainz-jr">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#CarlosSainzVazquezDeCastro"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">178</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_lewis-hamilton"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_lewis-hamilton">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LewisCarlDavidsonHamilton"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">217</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_lance-stroll"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_lance-stroll">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LanceStroll"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">68</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_george-russell"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_george-russell">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#GeorgeRussell"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">157</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_valtteri-bottas"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_valtteri-bottas">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#ValtteriBottas"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_pierre-gasly"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_pierre-gasly">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#PierreGasly"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">54</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_alexander-albon"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_alexander-albon">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#AlexanderAlbon"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_yuki-tsunoda"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_yuki-tsunoda">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#YukiTsunoda"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_logan-sargeant"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_logan-sargeant">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LoganHunterSargeant"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_kevin-magnussen"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_kevin-magnussen">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#KevinJanMagnussen"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_nyck-de-vries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_nyck-de-vries">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#NyckDeVries"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_nico-hulkenberg"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_nico-hulkenberg">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#NicolasHulkenberg"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_guanyu-zhou"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_guanyu-zhou">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#GuanyuZhou"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_lando-norris"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_lando-norris">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LandoNorris"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">184</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_esteban-ocon"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_esteban-ocon">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#EstebanOcon"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_charles-leclerc"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_charles-leclerc">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#CharlesMarcHervePercevalLeclerc"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">185</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_oscar-piastri"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_oscar-piastri">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#OscarPiastri"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">82</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_daniel-ricciardo"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_daniel-ricciardo">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#DanielRicciardo"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2023_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2023"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2023_Driver_liam-lawson"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2023_Driver_liam-lawson">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LiamLawson"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_max-verstappen"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_max-verstappen">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#MaxEmilianVerstappen"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">399</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_sergio-perez"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_sergio-perez">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#SergioPerezMendoza"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">138</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_carlos-sainz-jr"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_carlos-sainz-jr">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#CarlosSainzVazquezDeCastro"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">262</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_charles-leclerc"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_charles-leclerc">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#CharlesMarcHervePercevalLeclerc"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">327</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_george-russell"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_george-russell">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#GeorgeRussell"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">226</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_lando-norris"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_lando-norris">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LandoNorris"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">344</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_lewis-hamilton"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_lewis-hamilton">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LewisCarlDavidsonHamilton"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">207</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_oscar-piastri"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_oscar-piastri">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#OscarPiastri"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">265</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_fernando-alonso"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_fernando-alonso">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#FernandoAlonsoDiaz"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_lance-stroll"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_lance-stroll">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LanceStroll"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_guanyu-zhou"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_guanyu-zhou">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#GuanyuZhou"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_kevin-magnussen"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_kevin-magnussen">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#KevinJanMagnussen"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_daniel-ricciardo"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_daniel-ricciardo">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#DanielRicciardo"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_yuki-tsunoda"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_yuki-tsunoda">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#YukiTsunoda"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_alexander-albon"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_alexander-albon">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#AlexanderAlbon"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_nico-hulkenberg"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_nico-hulkenberg">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#NicolasHulkenberg"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_esteban-ocon"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_esteban-ocon">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#EstebanOcon"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_pierre-gasly"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_pierre-gasly">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#PierreGasly"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_valtteri-bottas"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_valtteri-bottas">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#ValtteriBottas"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_logan-sargeant"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_logan-sargeant">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LoganHunterSargeant"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_oliver-bearman"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_oliver-bearman">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#OliverJamesBearman"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_franco-colapinto"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_franco-colapinto">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#FrancoAlejandroColapinto"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_liam-lawson"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_liam-lawson">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LiamLawson"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2024_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2024"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2024_Driver_jack-doohan"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2024_Driver_jack-doohan">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#JackDoohan"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_lando-norris"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_lando-norris">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LandoNorris"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">394</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_max-verstappen"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_max-verstappen">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#MaxEmilianVerstappen"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">389</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_george-russell"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_george-russell">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#GeorgeRussell"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">289</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_kimi-antonelli"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_kimi-antonelli">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#AndreaKimiAntonelli"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">135</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_alexander-albon"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_alexander-albon">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#AlexanderAlbon"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_lance-stroll"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_lance-stroll">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LanceStroll"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_nico-hulkenberg"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_nico-hulkenberg">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#NicolasHulkenberg"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_charles-leclerc"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_charles-leclerc">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#CharlesMarcHervePercevalLeclerc"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">225</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_oscar-piastri"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_oscar-piastri">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#OscarPiastri"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">381</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_lewis-hamilton"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_lewis-hamilton">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LewisCarlDavidsonHamilton"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">135</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_pierre-gasly"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_pierre-gasly">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#PierreGasly"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_yuki-tsunoda"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_yuki-tsunoda">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#YukiTsunoda"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_esteban-ocon"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_esteban-ocon">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#EstebanOcon"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_oliver-bearman"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_oliver-bearman">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#OliverJamesBearman"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_liam-lawson"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_liam-lawson">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#LiamLawson"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_gabriel-bortoleto"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_gabriel-bortoleto">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#GabrielBortoletoOliveira"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_fernando-alonso"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_fernando-alonso">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#FernandoAlonsoDiaz"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_carlos-sainz-jr"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_carlos-sainz-jr">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#CarlosSainzVazquezDeCastro"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">54</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_jack-doohan"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_jack-doohan">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#JackDoohan"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_isack-hadjar"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_isack-hadjar">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#IsackAlexandreHadjar"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#Standing_Season_2025_Drivers_Aggregated">
+    <rdf:type rdf:resource="http://example.org/formula1#Standing"/>
+    <f1:partOfSeason rdf:resource="http://example.org/formula1#Season2025"/>
+    <f1:hasStandingRow rdf:resource="http://example.org/formula1#StandingRow_Season_2025_Driver_franco-colapinto"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#StandingRow_Season_2025_Driver_franco-colapinto">
+    <rdf:type rdf:resource="http://example.org/formula1#StandingRow"/>
+    <f1:rowForDriver rdf:resource="http://example.org/formula1#FrancoAlejandroColapinto"/>
+    <f1:totalPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</f1:totalPoints>
+    <f1:winsCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f1:winsCount>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#AlexanderAlbon">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Thailand"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#CarlosSainzVazquezDeCastro">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Spain"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#CharlesMarcHervePercevalLeclerc">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Monaco"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#DanielRicciardo">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Australia"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#EstebanOcon">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#France"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#FernandoAlonsoDiaz">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Spain"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#FrancoAlejandroColapinto">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Argentina"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#GabrielBortoletoOliveira">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Brazil"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#GeorgeRussell">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#GuanyuZhou">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#China"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#IsackAlexandreHadjar">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#France"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#JackDoohan">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Australia"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#KevinJanMagnussen">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Denmark"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#AndreaKimiAntonelli">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Italy"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LanceStroll">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Canada"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LandoNorris">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LewisCarlDavidsonHamilton">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LiamLawson">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#New-zealand"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#LoganHunterSargeant">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-states-of-america"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#MaxEmilianVerstappen">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Netherlands"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#NicolasHulkenberg">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Germany"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#NyckDeVries">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Netherlands"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#OliverJamesBearman">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#United-kingdom"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#OscarPiastri">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Australia"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#PierreGasly">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#France"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#SergioPerezMendoza">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Mexico"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#ValtteriBottas">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Finland"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="http://example.org/formula1#YukiTsunoda">
+    <rdf:type rdf:resource="http://example.org/formula1#Driver"/>
+    <f1:hasNationality rdf:resource="http://example.org/formula1#Japan"/>
+  </owl:NamedIndividual>
+
+</rdf:RDF>
