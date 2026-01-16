@@ -1,5 +1,14 @@
 # Formula 1 Ontology
 
+## Competency questions
+- Which drivers competed for which constructors in each season?
+- What is the nationality of each Formula One driver?
+- Which constructors are based in which countries?
+- Which circuits are located in which countries?
+- What are the standings (points and wins) per driver for each season?
+- Which drivers scored the most points overall?
+- Which drivers have the most wins overall?
+
 ## Overview
 - Base IRI: `http://example.org/formula1`
 - Prefix used in files: `f1` (e.g., `f1:Season`, `f1:hasRound`)
